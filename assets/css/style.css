@@ -1,12 +1,61 @@
 body {
-    width:960px;
+    max-width:960px;
     background-color:#dddddd;
     align: center;
+    border-color: #dddddd;
+
 }
 
+#header {
+    width: 100%;
+    border: 25px;
+    padding: 25px;
+    margin: 25px;
+    height: 100px;
+    background-color: white;
+
+}
+#jessiehaus {
+    float:left;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    padding: 20px;
+    margin: 0;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 40px;
+    line-height: 150%;
+    background: #ffffff;  
+    color: white; 
+    background-color: #4aaaa5;
+    font-weight: bold;
+    margin-bottom: 20px;
+    border-color:#cccccc;
+}
+#about-me {
+    color:#4aaaa5;
+    font-weight: bold;
+    font-size: 45px
+}
+
+#beach {
+    height: 200px;
+    width: 170px;
+    padding: 15px;
+    float:left;
+    margin-top: 20px;
+    margin-bottom: 70px;
+}
+.text {
+    
+
+}
 #sidebar {
     float:right;
-    width: 270px;
+    width: 200px;
+    border:white;
+    height: 75px;
+    padding: 0px;
+    margin-top: 20px;
+    
 }
 div {
     background-color: #ffffff;
@@ -14,25 +63,56 @@ div {
 #container {
     float:left;
     width: 650px;
+    height:250px;
+    margin-top: 25px;
+    padding: 50px;
+   
 }
 .links {
     float:right;
     padding: 0;
     margin: 0;
     font-family: Georgia, "Times New Roman", Times, serif;
-    font-size: 18px;
+    font-size: 40px;
     line-height: 150%;
     color: #333;
     background: #efeee7;
 }
-#jessiehaus {
-    float:left;
-    font-family: Georgia, "Times New Roman", Times, serif;
-    padding: 0;
-    margin: 0;
-    font-family: Georgia, "Times New Roman", Times, serif;
-    font-size: 18px;
-    line-height: 150%;
-    color: #333;
-    background: #efeee7;   
+#connect-with-me {
+    color: #4aaaa5;
+    font-weight: bold;
+    size: 40px;
 }
+
+
+ #githubimage {
+     height: 30px;
+     width: 50px;
+ }
+
+ #linkedinimage {
+     height: 30px;
+     width: 30px;
+ }
+
+ #stackoverflowimage {
+     height: 30px;
+     width: 30px;
+ }
+
+ #footer {
+    background-color: #666666;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 100px;
+    width: 100%;
+    overflow:hidden;
+    color: white;
+    
+ }
+
+ #footer>p {
+     text-align: center;
+     bottom: 0px;
+ }

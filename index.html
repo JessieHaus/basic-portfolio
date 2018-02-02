@@ -10,42 +10,57 @@
     <!-- Header, Container, Footer , can do them all as divs --> 
    
     <!-- Div 1 -->
-    <div> 
+    <div id="header"> 
         
-            <h1 id="jessiehaus">Jessie Haus</h1>
+            <header id="jessiehaus">Jessie Haus</header>
+
             <div class="links">
             <a href="index.html">About</a>
             <a href="portfolio.html">Portfolio</a>
             <a href="contact.html">Contact</a>
-            </div>
-        
-
-
-
     </div>
 
-    <!-- Sidebar -->
-    <!-- Background image for the gray box--> 
-    <!-- This is the first container, contents of the container will be unique to each page --> 
+    <br/>
+    <br/>
+        
    
     <!-- Div 2 -->
     <div id="container">
-        <h2> About Me</h2>
-        <p>I am a student at the University of Utah's Coding Bootcamp. I currently work as 
-                a Personal Finance Counselor in the nonprofit sector, helping clients get out of debt
-                , avoid bankruptcy, and helping them have healthy credit health. Before this, I traveled 
-                the country with AmeriCorps working for various nonprofits performing service 
-                work. 
+        <header id="about-me"> About Me</header>
+
+                <br/>
+        <img id="beach" src="assets/images/beach .jpg" />
+
+        <p id="text">I am a student of the University of Utah's Coding Bootcamp. I currently work as 
+                a Personal Finance Counselor in the nonprofit sector. I assist clients 
+                with establishing personal budgets, evaluating debt loads, setting financial
+                goals, and developing a plan of action. Before my current job, I traveled 
+                the country performing service work with AmeriCorps - examples of service
+                projects I worked are were building houses with Habitat for Humanity, building
+                hiking trails in the Rocky Mountains, building ropes courses for 4H, and filing 
+                taxes for low-income individuals under VITA.  
 
         </p> 
     </div>
 <!-- Div 3 --> 
     <div id="sidebar">
-        <p> Connect with Me</p>
+        <p id="connect-with-me"> Connect with Me</p>
         
-
+        <button class="github-icon" onClick="javascript:close_clip()"><img id="githubimage" src="assets/images/github-icon.jpg" /></button>
+        <button class="linkedin-icon" onClick="javascript:close_clip()"><img id="linkedinimage" src="assets/images/linkedin-icon.jpg" /></button>
+        <button class="stackoverflow-icon" onClick="javascript:close_clip()"><img id="stackoverflowimage" src="assets/images/stackoverflow-icon.jpg" /></button>
+        
     </div>
 
+<!-- Div 4 -->
+<div>
+
+    <footer id="footer">
+        <p>
+            Copyright 2016 Jessie Haus</p>
+        </p>
+      </footer>
+</div>
 
 
 </body>
