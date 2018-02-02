@@ -1,0 +1,38 @@
+body {
+    width:960px;
+    background-color:#dddddd;
+    align: center;
+}
+
+#sidebar {
+    float:right;
+    width: 270px;
+}
+div {
+    background-color: #ffffff;
+}
+#container {
+    float:left;
+    width: 650px;
+}
+.links {
+    float:right;
+    padding: 0;
+    margin: 0;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 18px;
+    line-height: 150%;
+    color: #333;
+    background: #efeee7;
+}
+#jessiehaus {
+    float:left;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    padding: 0;
+    margin: 0;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 18px;
+    line-height: 150%;
+    color: #333;
+    background: #efeee7;   
+}
