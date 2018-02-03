@@ -1,9 +1,12 @@
 body {
     max-width:960px;
-    background-color:#dddddd;
     align: center;
+    background-color:#dddddd;
     border-color: #dddddd;
-
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #header {
@@ -20,7 +23,6 @@ body {
     font-family: Georgia, "Times New Roman", Times, serif;
     padding: 20px;
     margin: 0;
-    font-family: Georgia, "Times New Roman", Times, serif;
     font-size: 40px;
     line-height: 150%;
     background: #ffffff;  
